@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Buuble Van</title>
+    <title>Bubble Van - Mobile Pet Grooming Services</title>
+    <meta name="description" content="Το Bubble Van είναι μια κινητή μονάδα καλλωπισμού κατοικίδιων σε Πάτρα και Αθήνα φροντίζοντας την υγιεινή τους. Προσφέρουμε μπάνιο, στέγνωμα, χτένισμα, καθαρισμό αυτιών, κόψιμο νυχιών και άρωμα με κολόνια. Και όλα αυτά στη γειτονιά σας!">
+    <meta name="keywords" content="Bubble Van, κινητή μονάδα καλλωπισμού κατοικίδιων, pet grooming,  grooming, pet grooming Athens, pet grooming Patras, pet care, dog grooming, cat grooming, μπάνιο, στέγνωμα, χτένισμα, καθαρισμός αυτιών, κόψιμο νυχιών, άρωμα με κολόνια, κομμωτήριο σκύλων, κομμωτήριο ζώων">
+    <meta name="author" content="Bubble Van">
+    <meta property="og:title" content="Bubble Van - Mobile Pet Grooming Services">
+    <meta property="og:description" content="Bubble Van offers mobile pet grooming services in Athens and Patras. We provide a friendly environment for your pets and ensure they receive the best care.">
+    <meta property="og:image" content="Photos/logo_transparent_back_8.png">
+    <meta property="og:url" content="https://www.bubblevan.gr">
+    <meta property="og:type" content="website">
     <link rel="shortcut icon" href="Photos/logo_transparent_back_8.png" type="image/x-icon">
     
     <!-- font awesome cdn link -->
@@ -14,6 +22,35 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
     
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Bubble Van",
+          "image": "https://www.bubblevan.gr/Photos/logo_transparent_back_8.png",
+          "@id": "https://www.bubblevan.gr",
+          "url": "https://www.bubblevan.gr",
+          "telephone": "+306981092470",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Athens|Patras",
+            "addressLocality": "Athens, Patras",
+            "addressRegion": "Attica, Achaia",
+            "postalCode": "26221",
+            "addressCountry": "GR"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 38.246639,
+            "longitude": 21.734573
+          },
+          "sameAs": [
+            "https://www.facebook.com/BubbleVan.gr/",
+            "https://www.instagram.com/bubble_van_grooming_/"
+          ],
+          "description": "Το Bubble Van είναι μια κινητή μονάδα καλλωπισμού κατοικίδιων σε Πάτρα και Αθήνα φροντίζοντας την υγιεινή τους. Προσφέρουμε μπάνιο, στέγνωμα, χτένισμα, καθαρισμό αυτιών, κόψιμο νυχιών και άρωμα με κολόνια. Και όλα αυτά στη γειτονιά σας!"
+        }
+    </script>
 
 
 </head>
@@ -37,22 +74,6 @@
             <a href="tel:+306981092470" class="fas fa-phone" title="Κάλεσε στο +306981092470"></a>
         </div>
 
-        <!-- <form action="" method="post" class="login-form">
-            <h3>sign in</h3>
-            <input type="email" name="email" placeholder="enter your email" id="email" class="box">
-            <input type="password" name="password" placeholder="enter your password" id="password" class="box">
-            <div class="remember">
-                <input type="checkbox" name="remember" id="remember">
-                <label for="remember">remember me</label>
-            </div>
-            <input type="submit" value="signin" class="btn">
-            <div class="links">
-                <a href="#">forgot password</a>
-                <a href="#">sign up</a>
-            </div>
-        </form> -->
-        
-
     </header>
 
     <!-- header section end  -->
@@ -75,20 +96,6 @@
 
     <section class="about" id="about">
 
-        <!-- <div class="image">
-            <img src="Photos/dogpng.png" alt="">
-        </div>
-
-        <div class="content">
-            <h3><span>air dried</span> dog food</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nam voluptatum quo ipsam possimus sunt, maxime, officia dicta repellendus laudantium omnis.</p>
-            
-            <a href="#" class="btn">Κλείσε Ραντεβού</a>
-        </div>
-
-        <img src="Photos/wave.png" alt="wave" class="wave"> -->
-
-
     </section>
 
     <!-- about section ends -->
@@ -98,7 +105,7 @@
     <div class="dog-food">
 
         <div class="image">
-            <img src="Photos/dogwash.png" alt="">
+            <img src="Photos/dogwash.png" alt="Dog being washed">>
         </div>
 
         <div class="content">
@@ -111,7 +118,6 @@
                 περιποιούμαστε.
                 Σκοπός μας είναι να δημιουργούμε ένα φιλικό περιβάλλον για το σκυλάκι, να σεβόμαστε τις
                 ιδιαιτερότητες και τυχόν φοβίες του και να κάνουμε τη διαδικασία όσο πιο ευχάριστη γίνεται.</p>
-            <!-- <div class="amount">$15.00 - $30.00</div> -->
             <a href="tel:+306981092470"><img src="Photos/booknowblue.png" alt=""></a>
         </div>
     </div>
@@ -134,114 +140,6 @@
         </div>
     </div>
 
-    <!-- dog and cat food banner section ends-->
-
-    <!-- shop section starts -->
-
-    <!-- <section class="services" id="services">
-
-        <h1 class="heading">our <span>Services </span></h1>
-
-        <div class="box-container">
-            <div class="box">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="Photos/dogface1.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>air-dried food</h3>
-                    <div class="amount">$15.00 - $30.00</div>
-                </div>
-            </div>
-            
-            <div class="box">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="Photos/dogface2.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>air-dried food</h3>
-                    <div class="amount">$15.00 - $30.00</div>
-                </div>
-            </div>
-            
-            <div class="box">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="Photos/dogface3.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>air-dried food</h3>
-                    <div class="amount">$15.00 - $30.00</div>
-                </div>
-            </div>
-        </div>
-
-    </section> -->
-
-    <!-- shop section ends -->
-
-    <!-- services 2 section starts -->
-
-    <!-- <section class="block">
-        <h1 class="heading">our <span>services 2</span></h1>
-
-        <div class="box-container">
-            <div class="box">
-                <i class="fas fa-dog"></i>
-                <h3>dog boarding</h3>
-                <a href="#" class="btn">read more</a>
-            </div>
-            
-            <div class="box">
-                <i class="fas fa-cat"></i>
-                <h3>cat boarding</h3>
-                <a href="#" class="btn">read more</a>
-            </div>
-            
-            <div class="box">
-                <i class="fas fa-bath"></i>
-                <h3>spa & grooming</h3>
-                <a href="#" class="btn">read more</a>
-            </div>
-            
-            <div class="box">
-                <i class="fas fa-drumstick-bite"></i>
-                <h3>healthy meal</h3>
-                <a href="#" class="btn">read more</a>
-            </div>
-            
-            <div class="box">
-                <i class="fas fa-baseball-ball"></i>
-                <h3>activity exercise</h3>
-                <a href="#" class="btn">read more</a>
-            </div>
-            
-            <div class="box">
-                <i class="fas fa-heartbeat"></i>
-                <h3>health care</h3>
-                <a href="#" class="btn">read more</a>
-            </div>
-
-        </div>
-    </section> -->
-
-    <!-- services 2 section ends -->
-
-    <!-- plan section starts -->
-    
     <section class="pricing" id="pricing">
 
         <h1 class="heading">Τα πακέτα<span></span> μας</h1>
@@ -249,8 +147,6 @@
         <div class="box-container">
             <div class="box">
                 <h3 class="day">Βασικό</h3>
-                <!-- <h3 class="day"> 1 day </h3> -->
-                <!-- <i class="fas fa-bicycle icon"></i> -->
                 <div class="list">
                     <p> Μπάνιο <span class="fas fa-check"></span></p>
                     <p> Στέγνωμα <span class="fas fa-check"></span></p>
@@ -260,14 +156,10 @@
                     <p> Χτένισμα <span class="fas fa-check"></span></p>
                     <p> Έξτρα άρωμα με κολόνια <span class="fas fa-check"></span></p>
                 </div>
-                <!-- <div class="amount"> <span>$</span>50</div> -->
-                <!-- <a href="#" class="btn"> choose plan</a> -->
             </div>
             
             <div class="box">
                 <h3 class="day">Mε ψαλίδι</h3>
-                <!-- <h3 class="day"> 10 days </h3> -->
-                <!-- <i class="fas fa-motorcycle icon"></i> -->
                 <div class="list">
                     <p> Μπάνιο <span class="fas fa-check"></span></p>
                     <p> Στέγνωμα <span class="fas fa-check"></span></p>
@@ -277,23 +169,8 @@
                     <p> Χτένισμα <span class="fas fa-check"></span></p>
                     <p> Κόψιμο/ καθάρισμα με το ψαλίδι (τριμάρισμα) σε περιοχές που χρειάζονται για λόγους υγιεινής. <span class="fas fa-check"></span></p>
                 </div>
-                <!-- <div class="amount"> <span>$</span>350</div> -->
-                <!-- <a href="#" class="btn"> choose plan</a> -->
             </div>
             
-            <!-- <div class="box">
-                <h3 class="title">pet care</h3>
-                <h3 class="day"> 30 days </h3>
-                <i class="fas fa-car-side icon"></i>
-                <div class="list">
-                    <p> pet room <span class="fas fa-check"></span></p>
-                    <p> pet grooming <span class="fas fa-check"></span></p>
-                    <p> pet exercise <span class="fas fa-check"></span></p>
-                    <p> pet meals <span class="fas fa-check"></span></p>
-                </div>
-                <div class="amount"> <span>$</span>650</div>
-                <a href="#" class="btn"> choose plan</a>
-            </div> -->
         </div>
     </section>
 
@@ -366,10 +243,6 @@
             <a href="mailto:hello@bubblevan.gr" class="btn" title="email to: hello@bubblevan.gr"><i class="fas fa-envelope"></i></a>
         </div>
         
-        <!-- <div class="contact-info">
-            <p><i class="fas fa-phone"></i> +306981092470</p>
-            <p><i class="fas fa-envelope"></i> hello@bubblevan.gr</p>
-        </div> -->
 
         <div class="credit"> Bubble Van @ 2025 | all rights reserved! </div>
     </section>
