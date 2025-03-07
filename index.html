@@ -350,6 +350,7 @@
             <textarea name="text" placeholder="Είμαστε όλο αυτιά!" cols="30" rows="10" required></textarea>
             <input type="submit" value="Αποστολή Μηνύματος" class="btn">
         </form>
+        <div id="formMessage" class="form-message"></div>
     </section>
 
     <!--  contact section ends -->
@@ -386,6 +387,29 @@
             link.addEventListener('click', function() {
                 document.querySelector('.navbar').classList.remove('active');
             });
+        });
+    </script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+    
+            var form = event.target;
+            var formData = new FormData(form);
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', form.action, true);
+            xhr.onload = function() {
+                var formMessage = document.getElementById('formMessage');
+                if (xhr.status === 200) {
+                    formMessage.textContent = xhr.responseText;
+                    formMessage.className = 'form-message success';
+                    form.reset(); // Clear the form
+                } else {
+                    formMessage.textContent = 'Αποτυχία Αποστολής.';
+                    formMessage.className = 'form-message error';
+                }
+                formMessage.style.display = 'block';
+            };
+            xhr.send(formData);
         });
     </script>
     <script>

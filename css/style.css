@@ -708,6 +708,24 @@ body {
     }
 }
 
+.form-message {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: none;
+    text-align: center;
+}
+
+.form-message.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.form-message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
 .footer {
     position: relative;
     background-color: var(--black);
