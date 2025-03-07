@@ -1,9 +1,9 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = htmlspecialchars($_POST['name']);
-    $email = htmlspecialchars($_POST['email']);
-    $number = htmlspecialchars($_POST['number']);
-    $message = htmlspecialchars($_POST['text']);
+    $name = htmlspecialchars($_POST['name'], ENT_QUOTES, 'UTF-8');
+    $email = htmlspecialchars($_POST['email'], ENT_QUOTES, 'UTF-8');
+    $number = htmlspecialchars($_POST['number'], ENT_QUOTES, 'UTF-8');
+    $message = htmlspecialchars($_POST['text'], ENT_QUOTES, 'UTF-8');
 
     $to = "hello@bubblevan.gr";
     $subject = "=?UTF-8?B?" . base64_encode("Μήνυμα από το bubblevan.gr") . "?=";
