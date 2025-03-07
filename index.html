@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+        <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    
 
 
 </head>
@@ -17,26 +21,23 @@
     <!-- header section start  -->
     <header class="header">
         <a href="#" class="logo"> 
-            <i class="fas fa-paw"> Bubble Van</i> 
-            <!-- <img src="Photos/logo_transparent_back_8.png" alt=""> -->
+            <img src="Photos/logo_transparent_back_8.png" alt="Bubble Van Logo" class="logo-img">
         </a>
 
         <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#about">About</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#block">Packages</a>
-            <a href="#contact">Contact Us</a>
+            <a href="#home">Αρχική</a>
+            <a href="#about">Ιστορία</a>
+            <a href="#pricing">Πακέτα</a>
+            <a href="#photo-gallery">Φωτογραφίες</a>
+            <a href="#contact">Επικοινωνία</a>
         </nav>
 
         <div class="icons">
             <div class="fas fa-bars" id="menu-btn"></div>
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <div class="fas fa-user" id="login-btn"></div>
+            <a href="tel:+306981092470" class="fas fa-phone" title="Κάλεσε στο +306981092470"></a>
         </div>
 
-        <form action="" method="post" class="login-form">
+        <!-- <form action="" method="post" class="login-form">
             <h3>sign in</h3>
             <input type="email" name="email" placeholder="enter your email" id="email" class="box">
             <input type="password" name="password" placeholder="enter your password" id="password" class="box">
@@ -49,7 +50,7 @@
                 <a href="#">forgot password</a>
                 <a href="#">sign up</a>
             </div>
-        </form>
+        </form> -->
         
 
     </header>
@@ -61,8 +62,8 @@
     <!-- home section starts -->
     <section class="home" id="home">
         <div class="content">
-            <h3><span>hi</span> welcome to the pet grooming van</h3>
-            <a href="#" class="btn">Make an Appointment</a>
+            <h3><span>Γεια!</span> Καλωσήρθες στο Bubble Van </h3>
+            <a href="tel:+306981092470" class="btn" title="Κλείσε Ραντεβού στο +306981092470">Κλείσε ραντεβού σε Αθήνα ή Πάτρα</a>
         </div>
 
         <img src="Photos/wave2.png" alt="wave" class="wave">
@@ -74,18 +75,18 @@
 
     <section class="about" id="about">
 
-        <div class="image">
-            <!-- <img src="Photos/template/dog-grooming-10.JPG" alt=""> -->
+        <!-- <div class="image">
             <img src="Photos/dogpng.png" alt="">
         </div>
 
         <div class="content">
-            <h3>premium <span>pet food</span> manufacturer</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <a href="#" class="btn">Read more</a>
+            <h3><span>air dried</span> dog food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nam voluptatum quo ipsam possimus sunt, maxime, officia dicta repellendus laudantium omnis.</p>
+            
+            <a href="#" class="btn">Κλείσε Ραντεβού</a>
         </div>
 
-        <img src="Photos/wave.png" alt="wave" class="wave">
+        <img src="Photos/wave.png" alt="wave" class="wave"> -->
 
 
     </section>
@@ -101,19 +102,32 @@
         </div>
 
         <div class="content">
-            <h3><span>air dried</span> dog food</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nam voluptatum quo ipsam possimus sunt, maxime, officia dicta repellendus laudantium omnis.</p>
-            <div class="amount">$15.00 - $30.00</div>
-            <a href="#"><img src="Photos/booknowblue.png" alt=""></a>
+            <h3>H Ιστορία του <span>Bubble Van</span></h3>
+            <p>Το Bubble Van δημιουργήθηκε το 2018 με σκοπό την εξυπηρέτηση ατόμων που είτε χρονικά είτε
+                πρακτικά δεν μπορούν να μετακινηθούν για την περιποίηση του κατοικιδίου τους, καθώς και για τα
+                σκυλάκια που δυσκολεύονται στη μετακίνηση. Η διαδικασία του καλλωπισμού πραγματοποιείται εξ
+                ολοκλήρου μέσα στο Van, αφού έχουμε παρκάρει στο πιο κοντινό δυνατό σημείο. Εσείς μας
+                φέρνετε το φιλαράκι σας, σαν να πηγαίνει τη βόλτα του/της , μπαίνουμε στο Van και το
+                περιποιούμαστε.
+                Σκοπός μας είναι να δημιουργούμε ένα φιλικό περιβάλλον για το σκυλάκι, να σεβόμαστε τις
+                ιδιαιτερότητες και τυχόν φοβίες του και να κάνουμε τη διαδικασία όσο πιο ευχάριστη γίνεται.</p>
+            <!-- <div class="amount">$15.00 - $30.00</div> -->
+            <a href="tel:+306981092470"><img src="Photos/booknowblue.png" alt=""></a>
         </div>
     </div>
 
     <div class="cat-food">
         <div class="content">
-            <h3><span>air dried</span> dog food</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nam voluptatum quo ipsam possimus sunt, maxime, officia dicta repellendus laudantium omnis.</p>
-            <div class="amount">$15.00 - $30.00</div>
-            <a href="#"><img src="Photos/booknowblue.png" alt=""></a>
+            <h3>Γιατί είναι σημαντικός o <span>καλλωπισμός</span> του σκύλου μας;</h3>
+            <p>Η διαδικασία του καλλωπισμού είναι ένα πολύ σημαντικό μέρος της φροντίδας του σκύλου. Μέσω
+                της διαδικασίας αφαιρείται το νεκρό τρίχωμα με αποτέλεσμα να «αναπνέει» καλύτερα το δέρμα
+                και μπορούν να αποφευχθούν διάφορα δερματικά προβλήματα. Εκτός από το δέρμα
+                περιποιούνται τα νυχάκια και τα αυτιά του σκύλου μας, οπότε όσο ο καλλωπισμός γίνεται τακτικά
+                μπορούμε να ελέγξουμε και να αποτρέψουμε τυχόν τραυματισμούς στα νύχια και παθήσεις των
+                αυτιών. Κάθε φυλή έχει τις δικές της ανάγκες και φυσικά το κάθε σκυλάκι έχει τον χαρακτήρα του,
+                οπότε φροντίζουμε να εξατομικεύουμε τη διαδικασία αναλόγως την κάθε περίσταση.</p>
+            <!-- <div class="amount">$15.00 - $30.00</div> -->
+            <a href="tel:+306981092470"><img src="Photos/booknowblue.png" alt=""></a>
         </div>
         <div class="image">
             <img src="Photos/service2.png" alt="">
@@ -124,7 +138,7 @@
 
     <!-- shop section starts -->
 
-    <section class="services" id="services">
+    <!-- <section class="services" id="services">
 
         <h1 class="heading">our <span>Services </span></h1>
 
@@ -175,13 +189,13 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
 
     <!-- shop section ends -->
 
     <!-- services 2 section starts -->
 
-    <section class="block">
+    <!-- <section class="block">
         <h1 class="heading">our <span>services 2</span></h1>
 
         <div class="box-container">
@@ -222,7 +236,7 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
     <!-- services 2 section ends -->
 
@@ -230,38 +244,44 @@
     
     <section class="pricing" id="pricing">
 
-        <h1 class="heading">choose a <span>plan</span></h1>
+        <h1 class="heading">Τα πακέτα<span></span> μας</h1>
 
         <div class="box-container">
             <div class="box">
-                <h3 class="title">pet care</h3>
-                <h3 class="day"> 1 day </h3>
-                <i class="fas fa-bicycle icon"></i>
+                <h3 class="day">Βασικό</h3>
+                <!-- <h3 class="day"> 1 day </h3> -->
+                <!-- <i class="fas fa-bicycle icon"></i> -->
                 <div class="list">
-                    <p> pet room <span class="fas fa-check"></span></p>
-                    <p> pet grooming <span class="fas fa-check"></span></p>
-                    <p> pet exercise <span class="fas fa-check"></span></p>
-                    <p> pet meals <span class="fas fa-check"></span></p>
+                    <p> Μπάνιο <span class="fas fa-check"></span></p>
+                    <p> Στέγνωμα <span class="fas fa-check"></span></p>
+                    <p> Χτένισμα και απομάκρυνση νεκρού τριχώματος <span class="fas fa-check"></span></p>
+                    <p> Καθαρισμός αυτιών <span class="fas fa-check"></span></p>
+                    <p> Κόψιμο νύχια <span class="fas fa-check"></span></p>
+                    <p> Χτένισμα <span class="fas fa-check"></span></p>
+                    <p> Έξτρα άρωμα με κολόνια <span class="fas fa-check"></span></p>
                 </div>
-                <div class="amount"> <span>$</span>50</div>
-                <a href="#" class="btn"> choose plan</a>
+                <!-- <div class="amount"> <span>$</span>50</div> -->
+                <!-- <a href="#" class="btn"> choose plan</a> -->
             </div>
             
             <div class="box">
-                <h3 class="title">pet care</h3>
-                <h3 class="day"> 10 days </h3>
-                <i class="fas fa-motorcycle icon"></i>
+                <h3 class="day">Mε ψαλίδι</h3>
+                <!-- <h3 class="day"> 10 days </h3> -->
+                <!-- <i class="fas fa-motorcycle icon"></i> -->
                 <div class="list">
-                    <p> pet room <span class="fas fa-check"></span></p>
-                    <p> pet grooming <span class="fas fa-check"></span></p>
-                    <p> pet exercise <span class="fas fa-check"></span></p>
-                    <p> pet meals <span class="fas fa-check"></span></p>
+                    <p> Μπάνιο <span class="fas fa-check"></span></p>
+                    <p> Στέγνωμα <span class="fas fa-check"></span></p>
+                    <p> Χτένισμα και απομάκρυνση νεκρού τριχώματος <span class="fas fa-check"></span></p>
+                    <p> Καθαρισμός αυτιών <span class="fas fa-check"></span></p>
+                    <p> Κόψιμο νύχια <span class="fas fa-check"></span></p>
+                    <p> Χτένισμα <span class="fas fa-check"></span></p>
+                    <p> Κόψιμο/ καθάρισμα με το ψαλίδι (τριμάρισμα) σε περιοχές που χρειάζονται για λόγους υγιεινής. <span class="fas fa-check"></span></p>
                 </div>
-                <div class="amount"> <span>$</span>350</div>
-                <a href="#" class="btn"> choose plan</a>
+                <!-- <div class="amount"> <span>$</span>350</div> -->
+                <!-- <a href="#" class="btn"> choose plan</a> -->
             </div>
             
-            <div class="box">
+            <!-- <div class="box">
                 <h3 class="title">pet care</h3>
                 <h3 class="day"> 30 days </h3>
                 <i class="fas fa-car-side icon"></i>
@@ -273,27 +293,62 @@
                 </div>
                 <div class="amount"> <span>$</span>650</div>
                 <a href="#" class="btn"> choose plan</a>
-            </div>
+            </div> -->
         </div>
     </section>
 
     <!-- plan section ends -->
 
+    <!-- photo gallery section starts -->
+    <section class="photo-gallery" id="photo-gallery">
+        <h1 class="heading">Η Διασκέδασή μας στο <span>Bubble Van</span></h1>
+        <div class="gallery-slider">
+            <div><img src="Photos/wetransfer/connect1.jpeg" alt="Connect 1"></div>
+            <div><img src="Photos/wetransfer/connect2.jpeg" alt="Connect 2"></div>
+            <div><img src="Photos/wetransfer/dry1.jpeg" alt="Dry 1"></div>
+            <div><img src="Photos/wetransfer/dry2.jpeg" alt="Dry 2"></div>
+            <div><img src="Photos/wetransfer/dry3.jpeg" alt="Dry 3"></div>
+            <div><img src="Photos/wetransfer/dry4.jpeg" alt="Dry 4"></div>
+            <div><img src="Photos/wetransfer/dry5.jpeg" alt="Dry 5"></div>
+            <div><img src="Photos/wetransfer/dry6.jpeg" alt="Dry 6"></div>
+            <div><img src="Photos/wetransfer/model1.jpeg" alt="Model 1"></div>
+            <div><img src="Photos/wetransfer/model2.jpeg" alt="Model 2"></div>
+            <div><img src="Photos/wetransfer/model3.jpeg" alt="Model 3"></div>
+            <div><img src="Photos/wetransfer/model4.jpeg" alt="Model 4"></div>
+            <div><img src="Photos/wetransfer/wash1.jpeg" alt="Wash 1"></div>
+            <div><img src="Photos/wetransfer/wash2.jpeg" alt="Wash 2"></div>
+            <div><img src="Photos/wetransfer/wash3.jpeg" alt="Wash 3"></div>
+            <div><img src="Photos/wetransfer/wash4.jpeg" alt="Wash 4"></div>
+            <div><img src="Photos/wetransfer/wash5.jpeg" alt="Wash 5"></div>
+            <div><img src="Photos/wetransfer/wash7.jpeg" alt="Wash 6"></div>
+            <div><img src="Photos/wetransfer/wash8.jpeg" alt="Wash 7"></div>
+            <div><img src="Photos/wetransfer/van1.jpeg" alt="Van 1"></div>
+            <div><img src="Photos/wetransfer/van2.jpeg" alt="Van 2"></div>
+            <div><img src="Photos/wetransfer/van3.jpeg" alt="Van 3"></div>
+            <div><img src="Photos/wetransfer/van4.jpeg" alt="Van 4"></div>
+            <div><img src="Photos/wetransfer/van5.jpeg" alt="Van 5"></div>
+            <div><img src="Photos/wetransfer/van6.jpeg" alt="Van 6"></div>
+            <div><img src="Photos/wetransfer/nails1.jpeg" alt="Nails 1"></div>
+            <div><img src="Photos/wetransfer/nails2.jpeg" alt="Nails 2"></div>
+            <div><img src="Photos/wetransfer/nails3.jpeg" alt="Nails 3"></div>
+        </div>
+    </section>
+    <!-- photo gallery section ends -->
+
     <!--  contact section starts -->
 
     <section class="contact" id="contact">
-
         <div class="image">
             <img src="Photos/logo_transparent_back_8.png" alt="">
         </div>
-
-        <form action="">
-            <h3>contact me</h3>
-            <input type="text" name="name" placeholder="your name" class="box">
-            <input type="email" name="email" placeholder="your email" class="box">
-            <input type="number" name="number" placeholder="your number" class="box">
-            <textarea name="text" placeholder="your message" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn">
+    
+        <form action="send_email.php" method="post">
+            <h3>Επικοινώνησε μαζί μας</h3>
+            <input type="text" name="name" placeholder="Όνομα Επικοινωνίας" class="box" required>
+            <input type="email" name="email" placeholder="Email" class="box" required>
+            <input type="number" name="number" placeholder="Αριθμός Τηλεφώνου" class="box" required>
+            <textarea name="text" placeholder="Είμαστε όλο αυτιά!" cols="30" rows="10" required></textarea>
+            <input type="submit" value="Αποστολή Μηνύματος" class="btn">
         </form>
     </section>
 
@@ -304,16 +359,81 @@
         <img src="Photos/wave2-top.png" alt="" class="wave">
 
         <div class="share">
-            <a href="#" class="btn"><i class="fab fa-facebook-f"> facebook </i></a>
-            <a href="#" class="btn"><i class="fab fa-twitter"> twitter </i></a>
-            <a href="#" class="btn"><i class="fab fa-instagram"> instagram </i></a>
-            <a href="#" class="btn"><i class="fab fa-linkedin"> linkedin </i></a>
-            <a href="#" class="btn"><i class="fab fa-pinterest"> pinterest </i></a>
+            <a href="https://www.facebook.com/BubbleVan.gr/" class="btn" title="@BubbleVan.gr"><i class="fab fa-facebook-f"> </i></a>
+            <a href="https://www.instagram.com/bubble_van_grooming_/" class="btn" title="@bubble_van_grooming_"><i class="fab fa-instagram"> </i></a>
+            <a href="tel:+306981092470" class="btn" title="call to: +306981092470"><i class="fa fa-phone"> </i></a>
+            <a href="mailto:hello@bubblevan.gr" class="btn" title="email to: hello@bubblevan.gr"><i class="fas fa-envelope"></i></a>
         </div>
+        
+        <!-- <div class="contact-info">
+            <p><i class="fas fa-phone"></i> +306981092470</p>
+            <p><i class="fas fa-envelope"></i> hello@bubblevan.gr</p>
+        </div> -->
 
-        <div class="credit"> created by <span> mr. web developer </span> | all rights reserved! </div>
+        <div class="credit"> Bubble Van @ 2025 | all rights reserved! </div>
     </section>
 
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', function() {
+            document.querySelector('.navbar').classList.toggle('active');
+        });
+
+        // Close the navbar when a link is clicked
+        document.querySelectorAll('.navbar a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelector('.navbar').classList.remove('active');
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('.gallery-slider').slick({
+                infinite: true,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true, // Enable arrows for manual navigation
+                dots: true,
+                slickGoTo: 1,
+                centerMode: true, // Enable center mode
+                centerPadding: '0', // Remove padding around the center slide
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+
+            // Add custom class to center slide
+            $('.gallery-slider').on('afterChange', function(event, slick, currentSlide){
+                $('.slick-slide').removeClass('slick-center-custom');
+                $('.slick-center').addClass('slick-center-custom');
+            });
+
+            // Initial class assignment
+            $('.slick-center').addClass('slick-center-custom');
+
+            // Make slides clickable
+            $('.gallery-slider .slick-slide').on('click', function() {
+                var index = $(this).data('slick-index');
+                $('.gallery-slider').slick('slickGoTo', index);
+            });
+        });
+    </script>
 </body>
 </html>
