@@ -299,7 +299,7 @@ body {
         z-index: 2; /* Ensure the content is above the overlay */
 
 
-        h3{
+        h1{
             font-size: 6rem;
             color: var(--white);
             padding-bottom: 1rem;
